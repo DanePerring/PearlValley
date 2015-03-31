@@ -1,0 +1,76 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'arial', sans-serif;
+}
+
+.showcase {
+	background-color: red;
+	height: 495px;
+	position: relative;
+	vertical-align: middle;
+}
+
+.logo {
+	background-color: rgba(255, 255, 255, 0.7);
+	width:509px;
+	height:151px;
+	margin-top: 42px;
+	position: absolute;
+	vertical-align: middle;
+	
+}
+
+.nav {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 71px;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #ffffff;
+	position: absolute;
+	bottom: 0px;
+	list-style-type: none;
+
+}
+
+.nav a {
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 20px 0 20px;
+}
+
+.nav li a:hover {
+	background-color: yellow;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav-left {
+	float: left;
+	display: inline;
+}
+
+.nav-right {
+	float: right;
+	display: inline;
+}
+
+.nav-book {
+	float: right;
+	padding: 0 30px 0 30px;
+	height: 100%;
+	margin: 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+	vertical-align: middle;
+}
+
+.nav-book li {
+
+	color: #000;
+}
+
